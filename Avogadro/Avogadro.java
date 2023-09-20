@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Avogadro { // works but bad runtime, hej
-    public static void main(String[] args) {
+    public static void main(String[] args) { // hej fra louisr
         Scanner sc = new Scanner(System.in);
         int columns = sc.nextInt();
 
