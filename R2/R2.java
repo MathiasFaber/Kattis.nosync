@@ -8,6 +8,9 @@ public class R2 {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
+
+        sc.close();
+
         int c = b * 2 - a;
         System.out.println(c);
     }

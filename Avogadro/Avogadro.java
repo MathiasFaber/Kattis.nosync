@@ -26,6 +26,7 @@ public class Avogadro { // works but bad runtime, hej
             r3.add(sc.nextInt());
             k++;
         }
+        sc.close();
         removeColumns(r1, r2, r3);
         System.out.println(columns - r1.size());
     }
